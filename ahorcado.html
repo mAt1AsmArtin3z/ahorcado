@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Ahorcado en Español</title>
+    <link rel="stylesheet" href="panda.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ahorcado</h1>
+        <div id="word-container">
+        </div>
+        <div id="guess-container">
+            <p>Intentos restantes: <span id="guesses-left">6</span></p>
+            <p>Letras utilizadas: <span id="used-letters"></span></p>
+            <input type="text" id="letter-input" maxlength="1">
+            <button id="guess-button">Adivinar</button>
+        </div>
+        <div id="result-container">
+
+        </div>
+        <div id="error-container">
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
